@@ -4,6 +4,7 @@ from PIL import Image
 
 def ft_invert(array) -> np.ndarray:
 
+    """Inverts the color of the image received."""
     print("Inverts the color of the image received.")
 
     array = 255 - array
@@ -17,6 +18,7 @@ def ft_invert(array) -> np.ndarray:
 
 def ft_red(array) -> np.ndarray:
 
+    """Red filter on the image received."""
     print("Red filter on the image received.")
 
     copy = array.ravel()
@@ -33,6 +35,7 @@ def ft_red(array) -> np.ndarray:
 
 def ft_green(array) -> np.ndarray:
 
+    """Green filter on the image received."""
     print("Green filter on the image received.")
 
     copy = array.ravel()
@@ -49,6 +52,7 @@ def ft_green(array) -> np.ndarray:
 
 def ft_blue(array) -> np.ndarray:
 
+    """Blue filter on the image received."""
     print("Blue filter on the image received.")
 
     copy = array.ravel()
@@ -65,6 +69,7 @@ def ft_blue(array) -> np.ndarray:
 
 def ft_grey(array) -> np.ndarray:
 
+    """Grey scale filter on the image received"""
     print("Grey scale filter on the image received")
 
     for row in array:

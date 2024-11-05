@@ -17,4 +17,3 @@ return sliced array"""
     print(f"My new shape is : {b.shape}")
 
     return b.tolist()
-

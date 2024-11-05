@@ -24,7 +24,7 @@ def ft_rotate(image):
 
 
 def main():
-    image_path = "../animal.jpeg"
+    image_path = "animal.jpeg"
 
     original_image = ft_load(image_path)
     if original_image is None:
