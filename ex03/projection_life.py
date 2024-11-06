@@ -10,7 +10,8 @@ def main():
     if life_expectancy is None:
         return
 
-    income_per_person = load("income_per_person_gdppercapita_ppp_inflation_adjusted.csv")
+    income_per_person = load("income_per_person_gdppercapita\
+_ppp_inflation_adjusted.csv")
     if income_per_person is None:
         return
 
@@ -32,7 +33,8 @@ def main():
 
     # add dots
     for column in both.columns:
-        plt.plot((both[column]['average_revenue']), (both[column]['life_expectancy']), 'bo')
+        plt.plot((both[column]['average_revenue']),
+                 (both[column]['life_expectancy']), 'bo')
 
     # customize the plot
     plt.xscale('log')
